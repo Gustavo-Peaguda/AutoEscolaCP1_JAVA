@@ -14,11 +14,7 @@
 
 O diagrama abaixo representa a arquitetura do sistema, utilizando os padrões oficiais da UML:
 
-* **Dependency:** O `Main` possui dependências (dashed lines) com as classes `Aluno`, `AutoEscola`, `Instrutor` e `Veiculo`, pois as utiliza para instanciar objetos.
-* **Aggregation:** A classe `AutoEscola` possui uma agregação com `Aluno` (empty diamond), representando que a escola gerencia um conjunto de alunos.
-* **Multiplicity:** Definida como `0..4` para a relação de alunos, conforme a regra de negócio do projeto.
-
-> **Note:** [Insira a imagem do seu diagrama aqui ou anexe-a ao repositório]
+<img src="DiagramaUML.png">
 
 ---
 
